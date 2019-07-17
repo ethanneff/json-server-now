@@ -1,0 +1,67 @@
+<style>
+  a {
+    text-decoration: none;
+    color: blue;
+    display: block;
+  }
+  .disabled {
+    color: grey;
+  }
+</style>
+
+<h1>GraphQL and REST APIs</h1>
+<h2>JSON Server hosted by now.sh</h2>
+<hr />
+<h4>GraphQL</h4>
+<a href="/graphql">graphQL</a>
+<h4>REST</h4>
+<a href="/users">users GET</a>
+<a href="/users" id="user-post">users POST</a>
+<a href="" class="disabled">users PUT</a>
+<a href="" class="disabled">users DELETE</a>
+<br />
+<a href="/posts">posts GET</a>
+<a href="/posts" id="posts-post">posts POST</a>
+<a href="" class="disabled">posts PUT</a>
+<a href="" class="disabled">posts DELETE</a>
+<br />
+<a href="/comments">comments GET</a>
+<a href="/comments" id="comments-post">comments POST</a>
+<a href="" class="disabled">comments PUT</a>
+<a href="" class="disabled">comments DELETE</a>
+<br />
+<h4>Code</h4>
+<a href="https://github.com/ethanneff/json-server-now">github</a>
+
+<script>
+  var xhr = new XMLHttpRequest();
+  document.getElementById("user-post").addEventListener("click", function() {
+    xhr.open("POST", "/users");
+    xhr.setRequestHeader("Content-Type", "application/json");
+    xhr.send(JSON.stringify({ name: Date.now() }));
+  });
+  document.getElementById("posts-post").addEventListener("click", function() {
+    xhr.open("POST", "/posts");
+    xhr.setRequestHeader("Content-Type", "application/json");
+    xhr.send(
+      JSON.stringify({
+        title: Date.now(),
+        views: Math.round(Math.random() * 1000),
+        user_id: Math.round(Math.random() * 10)
+      })
+    );
+  });
+  document
+    .getElementById("comments-post")
+    .addEventListener("click", function() {
+      xhr.open("POST", "/comments");
+      xhr.setRequestHeader("Content-Type", "application/json");
+      xhr.send(
+        JSON.stringify({
+          post_id: Math.round(Math.random() * 10),
+          body: Math.random() * 1000,
+          date: Date.now()
+        })
+      );
+    });
+</script>
