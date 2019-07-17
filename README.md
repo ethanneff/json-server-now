@@ -1,6 +1,9 @@
 # JSON Server Now
 
-GraphQL and REST APIs using JSON Server backend hosted on now.sh
+https://json-server.ethanneff.now.sh
+
+JSON backend with REST and GraphQL interfaces. Hosted on [now.sh](https://zeit.co/now) for data persistence.
+
 
 ## Local
 
