@@ -1,4 +1,4 @@
-# Json Server Now
+# JSON Server Now
 
 GraphQL and REST APIs using JSON Server backend hosted on now.sh
 
