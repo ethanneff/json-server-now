@@ -4,7 +4,7 @@ https://json-server.ethanneff.now.sh
 
 JSON backend with REST and GraphQL interfaces. Hosted on [now.sh](https://zeit.co/now) for data persistence.
 
-![image](https://i.imgur.com/pNpXXfG.png)
+[![image](https://i.imgur.com/pNpXXfG.png)](https://json-server.ethanneff.now.sh)
 
 
 ### Local
