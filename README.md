@@ -5,7 +5,7 @@ https://json-server.ethanneff.now.sh
 JSON backend with REST and GraphQL interfaces. Hosted on [now.sh](https://zeit.co/now) for data persistence.
 
 
-## Local
+### Local
 
 ```sh
 yarn
@@ -14,7 +14,7 @@ yarn start
 
 http://localhost:5000
 
-## Remote
+### Remote
 
 ```sh
 yarn global add now
@@ -23,7 +23,7 @@ now
 
 https://json-server.ethanneff.now.sh
 
-## Additional Resources
+### Additional Resources
 
 - remote hosting https://zeit.co/now
 - json server docs https://github.com/typicode/json-server
