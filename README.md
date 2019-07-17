@@ -20,7 +20,7 @@ now
 
 https://json-server.ethanneff.now.sh
 
-## Docs
+## Additional Resources
 
 - remote hosting https://zeit.co/now
 - json server docs https://github.com/typicode/json-server
