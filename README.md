@@ -22,7 +22,7 @@ https://json-server.ethanneff.now.sh
 
 ## Docs
 
-remote hosting https://zeit.co/now
-json server docs https://github.com/typicode/json-server
-additional json server remote solution https://my-json-server.typicode.com/
-example remote json server https://github.com/reedbarger/hooks-api
+- remote hosting https://zeit.co/now
+- json server docs https://github.com/typicode/json-server
+- additional json server remote solution https://my-json-server.typicode.com/
+- example remote json server https://github.com/reedbarger/hooks-api
