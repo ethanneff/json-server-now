@@ -2720,9 +2720,9 @@ locate-path@^3.0.0:
     path-exists "^3.0.0"
 
 lodash-es@^4.2.1:
-  version "4.17.13"
-  resolved "https://registry.yarnpkg.com/lodash-es/-/lodash-es-4.17.13.tgz#2a2df2acde25a8eebf886167f7d2b5d86a606db0"
-  integrity sha512-ktNCRrL41QyGAkjVQHG50QKiMAqum17Krw1hHl0nCLGeif+omPn5N6vPQq8cFTAKVf35MGvpa8Fgfq9jI4nS0w==
+  version "4.17.20"
+  resolved "https://registry.yarnpkg.com/lodash-es/-/lodash-es-4.17.20.tgz#29f6332eefc60e849f869c264bc71126ad61e8f7"
+  integrity sha512-JD1COMZsq8maT6mnuz1UMV0jvYD0E0aUsSOdrr1/nAG3dhqQXwRRgeW0cSqH1U43INKcqxaiVIQNOUDld7gRDA==
 
 lodash-id@^0.14.0:
   version "0.14.0"
